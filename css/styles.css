@@ -799,3 +799,21 @@ button:focus {
 .close-btn:focus .modal-icon {
   fill: #ffffff;
 }
+.social-box {
+  margin-right: 80px;
+}
+.subscribe-input {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: transparent;
+}
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
