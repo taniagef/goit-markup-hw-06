@@ -817,3 +817,8 @@ button:focus {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
