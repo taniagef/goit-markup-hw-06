@@ -799,13 +799,7 @@ button:focus {
 .close-btn:focus .modal-icon {
   fill: #ffffff;
 }
-.social-box {
-  position: absolute;
-  display: flex;
-  margin-right: 120px;
-  padding-top: 100px;
-  padding-bottom: 132px;
-}
+
 .subscribe-input {
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
