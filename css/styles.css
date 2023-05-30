@@ -843,3 +843,6 @@ button:focus {
   min-width: 165px;
   cursor: pointer;
 }
+.subscribe-icon {
+  margin-left: 16px;
+}
