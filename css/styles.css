@@ -759,7 +759,6 @@ button:focus {
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
-  margin-bottom: 8px;
 }
 
 .modal {
@@ -778,6 +777,7 @@ button:focus {
 }
 .input-box {
   position: relative;
+  margin-bottom: 8px;
 }
 .form-input {
   width: 100%;
