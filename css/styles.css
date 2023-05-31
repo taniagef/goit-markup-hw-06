@@ -972,3 +972,6 @@ button:focus {
 .textarea-field {
   margin-bottom: 16px;
 }
+.checkbox-box {
+  margin-bottom: 24px;
+}
