@@ -797,6 +797,8 @@ button:focus {
   border-color: #4d5ae5;
 }
 .form-textarea ::placeholder {
+  width: 360px;
+  height: 336px;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
@@ -880,6 +882,7 @@ button:focus {
 .close-btn:focus {
   background-color: #404bbf;
   border: none;
+  margin-bottom: 24;
 }
 .modal-icon {
   fill: #2e2f42;
@@ -948,7 +951,6 @@ button:focus {
 .modal-txt {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -959,4 +961,10 @@ button:focus {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+.check-box-icon {
+  border-radius: 4px;
+  padding: 3px;
+  border: 1px solid #8e8f99;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
