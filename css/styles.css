@@ -822,7 +822,7 @@ button:focus {
 .input-icon {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 16px;
   transform: translateY(-50%);
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -989,8 +989,8 @@ button:focus {
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   margin-right: 8px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-input:checked + .checkbox-label .custom-checkbox {
