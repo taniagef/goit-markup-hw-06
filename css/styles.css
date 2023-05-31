@@ -954,13 +954,13 @@ button:focus {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.check-box-label {
+.checkbox-label {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.check-box-icon {
+.checkbox-icon {
   border-radius: 4px;
   padding: 3px;
   border: 1px solid #8e8f99;
@@ -974,4 +974,15 @@ button:focus {
 }
 .checkbox-box {
   margin-bottom: 24px;
+}
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
+  margin-right: 8px;
 }
