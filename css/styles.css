@@ -835,18 +835,14 @@ button:focus {
   border-color: #4d5ae5;
 }
 .contact-form-btn {
-  display: flex;
-  position: absolute;
-  flex-direction: row;
+  display: block;
   padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
