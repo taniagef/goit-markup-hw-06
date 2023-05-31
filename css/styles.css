@@ -896,6 +896,12 @@ button:focus {
   color: #4d5ae5;
   margin-top: 16px;
 }
+.privacy-policy:hover {
+  color: #4d5ae5;
+}
+.privacy-policy:focus {
+  color: #4d5ae5;
+}
 .subscribe-input {
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
