@@ -959,11 +959,11 @@ button:focus {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  text-align: center;
 }
 .checkbox-icon {
-  border-radius: 4px;
+  opacity: 0;
   padding: 3px;
-  border: 1px solid #8e8f99;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field {
