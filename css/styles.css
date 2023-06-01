@@ -792,6 +792,7 @@ button:focus {
   resize: none;
   background-color: transparent;
   outline: transparent;
+  overflow: hidden;
 }
 .form-textarea:focus {
   border-color: #4d5ae5;
@@ -968,7 +969,6 @@ button:focus {
 }
 .checkbox-icon {
   /* opacity: 0; */
-  padding: 3px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field {
